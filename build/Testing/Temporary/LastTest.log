@@ -1,0 +1,148 @@
+Start testing: Nov 04 20:12 CST
+----------------------------------------------------------
+Unable to find executable: /home/faraday/wp/sponge/build/tests/byte_stream_construction
+26/169 Testing: t_byte_stream_construction
+26/169 Test: t_byte_stream_construction
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_byte_stream_construction" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_construction" end time: Nov 04 20:12 CST
+"t_byte_stream_construction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/tests/byte_stream_one_write
+27/169 Testing: t_byte_stream_one_write
+27/169 Test: t_byte_stream_one_write
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_byte_stream_one_write" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_one_write" end time: Nov 04 20:12 CST
+"t_byte_stream_one_write" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/tests/byte_stream_two_writes
+28/169 Testing: t_byte_stream_two_writes
+28/169 Test: t_byte_stream_two_writes
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_byte_stream_two_writes" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_two_writes" end time: Nov 04 20:12 CST
+"t_byte_stream_two_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/tests/byte_stream_capacity
+29/169 Testing: t_byte_stream_capacity
+29/169 Test: t_byte_stream_capacity
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_byte_stream_capacity" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_capacity" end time: Nov 04 20:12 CST
+"t_byte_stream_capacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/tests/byte_stream_many_writes
+30/169 Testing: t_byte_stream_many_writes
+30/169 Test: t_byte_stream_many_writes
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_byte_stream_many_writes" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_many_writes" end time: Nov 04 20:12 CST
+"t_byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/169 Testing: t_webget
+31/169 Test: t_webget
+Command: "/home/faraday/wp/sponge/tests/webget_t.sh"
+Directory: /home/faraday/wp/sponge/build
+"t_webget" start time: Nov 04 20:12 CST
+Output:
+----------------------------------------------------------
+/home/faraday/wp/sponge/tests/webget_t.sh:行3: ./apps/webget: 没有那个文件或目录
+ERROR: webget returned output that did not match the test's expectations
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"t_webget" end time: Nov 04 20:12 CST
+"t_webget" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/doctests/address_dt
+53/169 Testing: t_address_dt
+53/169 Test: t_address_dt
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_address_dt" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_address_dt" end time: Nov 04 20:12 CST
+"t_address_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/doctests/parser_dt
+54/169 Testing: t_parser_dt
+54/169 Test: t_parser_dt
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_parser_dt" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_parser_dt" end time: Nov 04 20:12 CST
+"t_parser_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/faraday/wp/sponge/build/doctests/socket_dt
+55/169 Testing: t_socket_dt
+55/169 Test: t_socket_dt
+Command: ""
+Directory: /home/faraday/wp/sponge/build
+"t_socket_dt" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_socket_dt" end time: Nov 04 20:12 CST
+"t_socket_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 20:12 CST

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraday/net/sponge
+CMAKE_SOURCE_DIR = /home/faraday/wp/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faraday/net/sponge/build
+CMAKE_BINARY_DIR = /home/faraday/wp/sponge/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/spongechecks.dir/depend.make
@@ -70,60 +70,60 @@ include tests/CMakeFiles/spongechecks.dir/progress.make
 include tests/CMakeFiles/spongechecks.dir/flags.make
 
 tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
-tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: /home/faraday/net/sponge/tests/send_equivalence_checker.cc
+tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: /home/faraday/wp/sponge/tests/send_equivalence_checker.cc
 tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -MF CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o.d -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -c /home/faraday/net/sponge/tests/send_equivalence_checker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o"
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -MF CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o.d -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o -c /home/faraday/wp/sponge/tests/send_equivalence_checker.cc
 
 tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/net/sponge/tests/send_equivalence_checker.cc > CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/wp/sponge/tests/send_equivalence_checker.cc > CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.i
 
 tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/net/sponge/tests/send_equivalence_checker.cc -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/wp/sponge/tests/send_equivalence_checker.cc -o CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.s
 
 tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
-tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: /home/faraday/net/sponge/tests/tcp_fsm_test_harness.cc
+tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: /home/faraday/wp/sponge/tests/tcp_fsm_test_harness.cc
 tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -c /home/faraday/net/sponge/tests/tcp_fsm_test_harness.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o"
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o -c /home/faraday/wp/sponge/tests/tcp_fsm_test_harness.cc
 
 tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/net/sponge/tests/tcp_fsm_test_harness.cc > CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/wp/sponge/tests/tcp_fsm_test_harness.cc > CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.i
 
 tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/net/sponge/tests/tcp_fsm_test_harness.cc -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/wp/sponge/tests/tcp_fsm_test_harness.cc -o CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.s
 
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
-tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: /home/faraday/net/sponge/tests/byte_stream_test_harness.cc
+tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: /home/faraday/wp/sponge/tests/byte_stream_test_harness.cc
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /home/faraday/net/sponge/tests/byte_stream_test_harness.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /home/faraday/wp/sponge/tests/byte_stream_test_harness.cc
 
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.i"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/net/sponge/tests/byte_stream_test_harness.cc > CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.i
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/wp/sponge/tests/byte_stream_test_harness.cc > CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.i
 
 tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.s"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/net/sponge/tests/byte_stream_test_harness.cc -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.s
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/wp/sponge/tests/byte_stream_test_harness.cc -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.s
 
 tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/flags.make
-tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o: /home/faraday/net/sponge/tests/network_interface_test_harness.cc
+tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o: /home/faraday/wp/sponge/tests/network_interface_test_harness.cc
 tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o: tests/CMakeFiles/spongechecks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o -c /home/faraday/net/sponge/tests/network_interface_test_harness.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o"
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o -MF CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o.d -o CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o -c /home/faraday/wp/sponge/tests/network_interface_test_harness.cc
 
 tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.i"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/net/sponge/tests/network_interface_test_harness.cc > CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.i
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/wp/sponge/tests/network_interface_test_harness.cc > CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.i
 
 tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.s"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/net/sponge/tests/network_interface_test_harness.cc -o CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.s
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/wp/sponge/tests/network_interface_test_harness.cc -o CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.s
 
 # Object files for target spongechecks
 spongechecks_OBJECTS = \
@@ -141,19 +141,19 @@ tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/byte_stream_test_harn
 tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o
 tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/build.make
 tests/libspongechecks.a: tests/CMakeFiles/spongechecks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libspongechecks.a"
-	cd /home/faraday/net/sponge/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/spongechecks.dir/cmake_clean_target.cmake
-	cd /home/faraday/net/sponge/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spongechecks.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libspongechecks.a"
+	cd /home/faraday/wp/sponge/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/spongechecks.dir/cmake_clean_target.cmake
+	cd /home/faraday/wp/sponge/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spongechecks.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/spongechecks.dir/build: tests/libspongechecks.a
 .PHONY : tests/CMakeFiles/spongechecks.dir/build
 
 tests/CMakeFiles/spongechecks.dir/clean:
-	cd /home/faraday/net/sponge/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/spongechecks.dir/cmake_clean.cmake
+	cd /home/faraday/wp/sponge/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/spongechecks.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/spongechecks.dir/clean
 
 tests/CMakeFiles/spongechecks.dir/depend:
-	cd /home/faraday/net/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/net/sponge /home/faraday/net/sponge/tests /home/faraday/net/sponge/build /home/faraday/net/sponge/build/tests /home/faraday/net/sponge/build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faraday/wp/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/wp/sponge /home/faraday/wp/sponge/tests /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build/tests /home/faraday/wp/sponge/build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/spongechecks.dir/depend
 

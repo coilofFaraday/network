@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraday/net/sponge
+CMAKE_SOURCE_DIR = /home/faraday/wp/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faraday/net/sponge/build
+CMAKE_BINARY_DIR = /home/faraday/wp/sponge/build
 
 # Utility rule file for format.
 
@@ -82,6 +82,6 @@ CMakeFiles/format.dir/clean:
 .PHONY : CMakeFiles/format.dir/clean
 
 CMakeFiles/format.dir/depend:
-	cd /home/faraday/net/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/net/sponge /home/faraday/net/sponge /home/faraday/net/sponge/build /home/faraday/net/sponge/build /home/faraday/net/sponge/build/CMakeFiles/format.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faraday/wp/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/wp/sponge /home/faraday/wp/sponge /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build/CMakeFiles/format.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/format.dir/depend
 

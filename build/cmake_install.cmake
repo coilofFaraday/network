@@ -1,4 +1,4 @@
-# Install script for directory: /home/faraday/net/sponge
+# Install script for directory: /home/faraday/wp/sponge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/faraday/net/sponge/build/libsponge/cmake_install.cmake")
-  include("/home/faraday/net/sponge/build/apps/cmake_install.cmake")
-  include("/home/faraday/net/sponge/build/tests/cmake_install.cmake")
-  include("/home/faraday/net/sponge/build/doctests/cmake_install.cmake")
+  include("/home/faraday/wp/sponge/build/libsponge/cmake_install.cmake")
+  include("/home/faraday/wp/sponge/build/apps/cmake_install.cmake")
+  include("/home/faraday/wp/sponge/build/tests/cmake_install.cmake")
+  include("/home/faraday/wp/sponge/build/doctests/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/faraday/net/sponge/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/faraday/wp/sponge/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/faraday/net/sponge/apps/bidirectional_stream_copy.cc" "apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o" "gcc" "apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o.d"
+  "/home/faraday/wp/sponge/apps/bidirectional_stream_copy.cc" "apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o" "gcc" "apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraday/net/sponge
+CMAKE_SOURCE_DIR = /home/faraday/wp/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faraday/net/sponge/build
+CMAKE_BINARY_DIR = /home/faraday/wp/sponge/build
 
 # Utility rule file for check.
 
@@ -67,9 +67,9 @@ include CMakeFiles/check.dir/compiler_depend.make
 include CMakeFiles/check.dir/progress.make
 
 CMakeFiles/check:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing libsponge..."
-	/home/faraday/net/sponge/tun.sh check 144 145
-	/home/faraday/net/sponge/tap.sh check 10
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing libsponge..."
+	/home/faraday/wp/sponge/tun.sh check 144 145
+	/home/faraday/wp/sponge/tap.sh check 10
 	/usr/bin/ctest --output-on-failure --timeout 10 -R '^t_|^arp_|^router_'
 
 check: CMakeFiles/check
@@ -85,6 +85,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	cd /home/faraday/net/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/net/sponge /home/faraday/net/sponge /home/faraday/net/sponge/build /home/faraday/net/sponge/build /home/faraday/net/sponge/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faraday/wp/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/wp/sponge /home/faraday/wp/sponge /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check.dir/depend
 

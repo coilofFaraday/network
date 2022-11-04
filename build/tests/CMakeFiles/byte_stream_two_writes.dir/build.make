@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraday/net/sponge
+CMAKE_SOURCE_DIR = /home/faraday/wp/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faraday/net/sponge/build
+CMAKE_BINARY_DIR = /home/faraday/wp/sponge/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/byte_stream_two_writes.dir/depend.make
@@ -70,18 +70,18 @@ include tests/CMakeFiles/byte_stream_two_writes.dir/progress.make
 include tests/CMakeFiles/byte_stream_two_writes.dir/flags.make
 
 tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: tests/CMakeFiles/byte_stream_two_writes.dir/flags.make
-tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/faraday/net/sponge/tests/byte_stream_two_writes.cc
+tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/faraday/wp/sponge/tests/byte_stream_two_writes.cc
 tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: tests/CMakeFiles/byte_stream_two_writes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -MF CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o.d -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /home/faraday/net/sponge/tests/byte_stream_two_writes.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o"
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -MF CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o.d -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /home/faraday/wp/sponge/tests/byte_stream_two_writes.cc
 
 tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.i"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/net/sponge/tests/byte_stream_two_writes.cc > CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.i
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faraday/wp/sponge/tests/byte_stream_two_writes.cc > CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.i
 
 tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.s"
-	cd /home/faraday/net/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/net/sponge/tests/byte_stream_two_writes.cc -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.s
+	cd /home/faraday/wp/sponge/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faraday/wp/sponge/tests/byte_stream_two_writes.cc -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.s
 
 # Object files for target byte_stream_two_writes
 byte_stream_two_writes_OBJECTS = \
@@ -95,18 +95,18 @@ tests/byte_stream_two_writes: tests/CMakeFiles/byte_stream_two_writes.dir/build.
 tests/byte_stream_two_writes: tests/libspongechecks.a
 tests/byte_stream_two_writes: libsponge/libsponge.a
 tests/byte_stream_two_writes: tests/CMakeFiles/byte_stream_two_writes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable byte_stream_two_writes"
-	cd /home/faraday/net/sponge/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/byte_stream_two_writes.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable byte_stream_two_writes"
+	cd /home/faraday/wp/sponge/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/byte_stream_two_writes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/byte_stream_two_writes.dir/build: tests/byte_stream_two_writes
 .PHONY : tests/CMakeFiles/byte_stream_two_writes.dir/build
 
 tests/CMakeFiles/byte_stream_two_writes.dir/clean:
-	cd /home/faraday/net/sponge/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/byte_stream_two_writes.dir/cmake_clean.cmake
+	cd /home/faraday/wp/sponge/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/byte_stream_two_writes.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/byte_stream_two_writes.dir/clean
 
 tests/CMakeFiles/byte_stream_two_writes.dir/depend:
-	cd /home/faraday/net/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/net/sponge /home/faraday/net/sponge/tests /home/faraday/net/sponge/build /home/faraday/net/sponge/build/tests /home/faraday/net/sponge/build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faraday/wp/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/wp/sponge /home/faraday/wp/sponge/tests /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build/tests /home/faraday/wp/sponge/build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/byte_stream_two_writes.dir/depend
 

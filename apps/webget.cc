@@ -1,12 +1,13 @@
 #include "socket.hh"
 #include "util.hh"
 
+
 #include <cstdlib>
 #include <iostream>
 
 using namespace std;
 
-void get_URL(const string &host, const string &path) {
+void get_URL(const string& host, const string& path) {
     // Your code here.
 
     // You will need to connect to the "http" service on
@@ -16,12 +17,29 @@ void get_URL(const string &host, const string &path) {
     // Then you'll need to print out everything the server sends back,
     // (not just one call to read() -- everything) until you reach
     // the "eof" (end of file).
+    const Address addr(host, "http");
+    TCPSocket tcpSocket;
+    tcpSocket.connect(addr);  // connect the HTTP server
 
-    cerr << "Function called: get_URL(" << host << ", " << path << ").\n";
-    cerr << "Warning: get_URL() has not been implemented yet.\n";
+    // construct the HTTP header and send to the server
+    string httpHeader;
+    httpHeader.append("GET ").append(path).append(" HTTP/1.1\r\n")
+        .append("Host: ").append(host).append("\r\n")
+        .append("Connection: close\r\n")
+        .append("\r\n");
+    if (tcpSocket.write(httpHeader) != httpHeader.size()) {
+        cerr << "HTTP request failed.\n";
+        return;
+    }
+
+    // read and print the output from the server until reaching “EOF”
+    while (!tcpSocket.eof()) {
+        cout << tcpSocket.read();
+    }
+    tcpSocket.close();  // close the TCP connection
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
     try {
         if (argc <= 0) {
             abort();  // For sticklers: don't try to access argv[0] if argc <= 0.
@@ -42,7 +60,8 @@ int main(int argc, char *argv[]) {
 
         // Call the student-written function.
         get_URL(host, path);
-    } catch (const exception &e) {
+    }
+    catch (const exception& e) {
         cerr << e.what() << "\n";
         return EXIT_FAILURE;
     }

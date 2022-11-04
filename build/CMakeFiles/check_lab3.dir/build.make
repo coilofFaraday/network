@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraday/net/sponge
+CMAKE_SOURCE_DIR = /home/faraday/wp/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faraday/net/sponge/build
+CMAKE_BINARY_DIR = /home/faraday/wp/sponge/build
 
 # Utility rule file for check_lab3.
 
@@ -67,8 +67,8 @@ include CMakeFiles/check_lab3.dir/compiler_depend.make
 include CMakeFiles/check_lab3.dir/progress.make
 
 CMakeFiles/check_lab3:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faraday/net/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP connection..."
-	/home/faraday/net/sponge/tun.sh check 144 145
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faraday/wp/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP connection..."
+	/home/faraday/wp/sponge/tun.sh check 144 145
 	/usr/bin/ctest --output-on-failure --timeout 10 -R ^t_
 
 check_lab3: CMakeFiles/check_lab3
@@ -84,6 +84,6 @@ CMakeFiles/check_lab3.dir/clean:
 .PHONY : CMakeFiles/check_lab3.dir/clean
 
 CMakeFiles/check_lab3.dir/depend:
-	cd /home/faraday/net/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/net/sponge /home/faraday/net/sponge /home/faraday/net/sponge/build /home/faraday/net/sponge/build /home/faraday/net/sponge/build/CMakeFiles/check_lab3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faraday/wp/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faraday/wp/sponge /home/faraday/wp/sponge /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build /home/faraday/wp/sponge/build/CMakeFiles/check_lab3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check_lab3.dir/depend
 

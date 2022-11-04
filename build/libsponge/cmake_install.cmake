@@ -1,4 +1,4 @@
-# Install script for directory: /home/faraday/net/sponge/libsponge
+# Install script for directory: /home/faraday/wp/sponge/libsponge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
